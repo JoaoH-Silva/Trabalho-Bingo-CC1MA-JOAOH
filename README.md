@@ -1,0 +1,8 @@
+# Trabalho-Bingo-CC1MA-JOAOH
+
+
+#### Projeto do BINGO desenvolvido com HTML,CSS e JS.
+
++ ALUNO: JOÃO HENRIQUE ALVES SILVA.
++ MATRÍCULA: 202305582 .
++ PROFESSOR: OTÁVIO LUBE.
