@@ -1,0 +1,156 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #598ec6;
+}
+
+header {
+  background-color: #195e63;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  background-color: #81c9f3;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-container > div {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 14px;
+  align-items: center;
+}
+
+button.draw-on {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+button.draw-off {
+  background-color: rgb(16, 83, 142);
+  color: white;
+}
+
+button.reset {
+  background-color: #b70000;
+  color: white;
+}
+
+.drawn-numbers-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 20px;
+  overflow-y: auto;
+}
+
+.drawn-numbers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(95, 154, 206);
+  border-radius: 5px;
+  max-height: 300px;
+}
+
+.drawn-number {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  background-color: rgb(88, 151, 205);
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bingo-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex: 2;
+  align-items: flex-start;
+}
+
+.bingo-card {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bingo-card-name {
+  text-align: center;
+  margin-top: 0;
+}
+
+.bingo-table {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+.bingo-table td {
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.bingo-number {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.free-space {
+  background-color: #030202;
+}
+
+.selected {
+  background-color: rgb(69, 184, 215);
+}
+
+.bingo-complete {
+  background-color: rgb(103, 171, 255);
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  height: 5vh;
+  background-color: #195e63;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
